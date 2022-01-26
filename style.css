@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin: 10px auto;
+    background-color: rgb(236, 207, 206);
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.screen{
+    background-color: rgb(255, 251, 251);
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    border: 0px solid black;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    padding: 5px;
+    outline: none;
+    
+}
+.result{
+    background-color: rgb(255, 251, 251);
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    height: 50px;
+    border: 0px solid black;
+    border-radius: 15px;
+    font-size: 1.6rem;
+
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2px;
+    /* background-color: rgb(179, 134, 134); */
+}
+.btn{
+    background-color: rgb(218 146 146);
+    margin: 4px;
+    width: 22%;
+    height: 60px;
+    padding: 3px;
+    font-size: 1.8rem;
+    border-radius: 50%;
+    border: 0px solid black;
+    cursor: pointer;
+    box-shadow: inset;
+}
+.btn:active{
+    background-color: rgb(250, 221, 221);
+}
+
+#toggle{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7xhVNPJiptKQDhlg0o4oXnKMVd_HbcwbNwA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.dark1{
+    background-color: rgb(65, 63, 63);
+}
+.dark2{
+    background-color: rgb(122, 120, 120);
+}
+.dark3{
+    background-color: rgb(194, 194, 194);
+}
+.dark4{
+    background-color: rgb(207, 207, 207);
+}
+.whitetext{
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+
+.heading{
+    display: inline;
+    font-size: 1.7rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    position: relative;
+    top: -10px;
+    margin: 0 40px;
+}
